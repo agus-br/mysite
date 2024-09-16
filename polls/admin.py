@@ -13,6 +13,7 @@ class QuestionAdmin(admin.ModelAdmin):
         ("Date information", {"fields": ["pub_date"]}),
     ] 
     inlines = [ChoiceInline]
+    
 
 
 
